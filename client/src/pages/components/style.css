@@ -1,0 +1,40 @@
+.datas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    img{
+        width: 300px;
+    }
+    h3{
+        font-weight: 500;
+      font-size: 20px;
+     color: #7971ea;
+      line-height: 24px;
+      font-family: 'Mukta';
+    }
+    p{
+       font-weight: 300;
+       font-size: 16px;
+       color: #8c92a0;
+      line-height: 27.2px
+    }
+    h5{
+    font-weight: 700;
+font-size: 16px;
+color: #7971ea;
+line-height: 27.2px
+    }
+}
+
+.border{
+    border: 1px solid rgb(121,113,234);
+    width: 100px;
+}
+.Products{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.4px
+}

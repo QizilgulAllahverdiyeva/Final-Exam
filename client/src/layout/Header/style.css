@@ -1,0 +1,40 @@
+*{
+    font-family: "Mukta";
+}
+.active {
+    color: red;
+}
+
+.header {
+    ul{
+        padding: 20px 250px ;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        li{
+            list-style: none;
+        }
+    }
+
+
+}
+
+.headerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    color: gray;
+}
+.shoppersDiv{
+    border: 1px solid black;
+    padding: 10px 20px ;
+}
+.grayBorder{
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.397);
+    color: gray;
+    width: 100%;
+}
