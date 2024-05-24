@@ -5,4 +5,6 @@ export const ProductsSchema =yup
 .shape({
   title: yup.string().required("Please Write Title"),
   price: yup.string().required("Please Write Price"),
+  category: yup.string().required("Please Write Category"),
+
 })

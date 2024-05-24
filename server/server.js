@@ -107,9 +107,6 @@ res.status(200).send(clothUpdate)
     }
 })
 
-
-
-
 const PORT= process.env.PORT
 const DB= process.env.DB_URL
 

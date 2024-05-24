@@ -20,8 +20,10 @@
 }
 
 .headerBottom{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .icons {
@@ -37,4 +39,18 @@
     border-bottom: 0.5px solid rgba(128, 128, 128, 0.397);
     color: gray;
     width: 100%;
+}
+.menu{
+    display: none;
+}
+
+
+@media (max-width:992px){
+    .menu{
+        display: inline;
+    }
+    .headerdown{
+        display: none;
+    }
+    
 }
